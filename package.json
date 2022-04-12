@@ -1,6 +1,6 @@
 {
   "name": "github-action-merge-dependabot",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "A GitHub action to automatically merge and approve Dependabot pull requests",
   "main": "src/index.js",
   "scripts": {
@@ -30,11 +30,11 @@
     "@actions/github": "^5.0.1",
     "actions-toolkit": "github:nearform/actions-toolkit",
     "gitdiff-parser": "^0.2.2",
-    "semver": "^7.3.5"
+    "semver": "^7.3.6"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.33.3",
-    "eslint": "^8.12.0",
+    "eslint": "^8.13.0",
     "husky": "^7.0.4",
     "prettier": "^2.6.2",
     "proxyquire": "^2.1.3",
